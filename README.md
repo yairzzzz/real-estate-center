@@ -69,14 +69,6 @@ npm run lint
   - `assets/` - Static assets
 - `public/` - Public images and icons
 
-## Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License.
-
 ---
 
 _Made with ❤️ by Yair Shabtai._
