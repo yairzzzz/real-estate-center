@@ -267,7 +267,7 @@ const HomePage = () => {
                   </section>
                 </div>
               </article>
-              {/* bg-[#1c112b] */}
+
               <div className="block md:hidden bg-[#1c112b]  my-3  mx-4 ">
                 <TvArticle />
               </div>
