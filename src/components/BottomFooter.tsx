@@ -30,7 +30,7 @@ const BottomFooter = () => {
           {/* buttons section */}
           <div className="flex justify-between mt-20">
             {footerLinks.map((item, i) => (
-              <nav>
+              <nav key={item.section + i}>
                 <h3
                   className="font-extrabold text-2xl mb-5"
                   key={item.section + i}

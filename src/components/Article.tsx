@@ -8,15 +8,15 @@ const MobileArticle = ({ img, alt, title, date, author }: ArticleProps) => {
           <img src={img} alt={alt} className="w-full" />
         </a>
         <div className=" flex flex-col justify-between w-full px-2">
-          <div className="flex items-start justify-center md:h-[5rem]">
-            <h2 className="font-semibold text-xs xl:text-[0.9rem] mt-2 max-w-70">
+          <div className="flex items-start justify-center ">
+            <h2 className="font-semibold text-xs xl:text-[0.9rem] mt-2 ">
               {title}
             </h2>
           </div>
 
           <footer className="block md:flex flex-col xl:flex-row text-gray-400 text-xs md:mt-10">
             <span>{date}</span>
-            <span className="mx-2">|</span>
+            <span className="md:hidden xl:block mx-2">|</span>
             <span>{author}</span>
           </footer>
         </div>

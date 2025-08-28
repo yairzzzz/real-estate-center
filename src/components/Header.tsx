@@ -20,7 +20,7 @@ const Header = ({
         <Button styles={buttonStyles} contentColor={buttonContentColor} />
         <LargerButton styles={buttonStyles} contentColor={buttonContentColor} />
         <hr
-          className={`hidden md:block absolute border-t-1 border-${buttonStyles} w-[70%] left-35 top-13`}
+          className={`hidden md:block absolute border-t-1 border-${buttonStyles} w-[65%] left-35 top-13`}
         />
       </header>
     </>

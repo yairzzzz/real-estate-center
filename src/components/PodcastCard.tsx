@@ -14,7 +14,7 @@ const PodcastCard = ({
     <article className="flex py-10">
       <div>
         <a href="">
-          <img src={img} alt={alt} className="xl: w-70" />
+          <img src={img} alt={alt} className="w-50" />
         </a>
       </div>
       <div className="mx-5 w-full flex flex-col justify-between">

@@ -4,8 +4,8 @@ import articlesStore from "../store/useArticlesStore";
 const DesktopNavbar = () => {
   const { navTopItems, navBotItems, socials } = articlesStore();
   return (
-    <header className="sticky z-50 shadow-lg h-28 hidden lg:flex text-sm">
-      <div>
+    <header className="sticky z-50 shadow-lg h-28 hidden md:flex text-sm">
+      <div className="md:hidden xl:block">
         <a href="/">
           <img
             src="/real-estate-center-icon2.png"
@@ -15,7 +15,7 @@ const DesktopNavbar = () => {
         </a>
       </div>
       <div className="w-full">
-        <nav className="h-[50%] w-full bg-[#5806C7] flex items-center justify-between">
+        <nav className="h-[50%] pr-5 w-full bg-[#5806C7] flex items-center justify-between">
           <ul className=" text-white gap-6 py-2 flex mr-3">
             {navTopItems.map((item, i) => (
               <li key={item + i}>
@@ -23,7 +23,7 @@ const DesktopNavbar = () => {
               </li>
             ))}
           </ul>
-          <div className="flex gap-3  px-4 py-2">
+          <div className="gap-3  px-4 py-2 md:hidden xl:flex ">
             {socials.map(({ icon: Icon, href }, i) => (
               <a
                 key={i}
@@ -36,7 +36,7 @@ const DesktopNavbar = () => {
             ))}
           </div>
         </nav>
-        <nav className="h-[50%] flex items-center justify-between">
+        <nav className="h-[50%] pr-5 flex items-center justify-between">
           <ul className="  gap-6 py-2 flex mr-3">
             {navBotItems.map((item, i) => (
               <li key={item + i}>
