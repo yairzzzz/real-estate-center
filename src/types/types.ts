@@ -1,7 +1,3 @@
-export type HamburgerButtonProps = {
-  onClick: React.MouseEventHandler<HTMLButtonElement>;
-};
-
 export type ArticleProps = {
   img: string;
   alt: string;
